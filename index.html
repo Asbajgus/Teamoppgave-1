@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+
+
+<body>
+    <button onclick="toggle()">Hide/show</button>
+
+   <div style="display: flex;">     <!-- Dette er for å plassere boksene ved siden av hværandre -->
+
+    <div id="box1">
+        <div id="boxlabel1">    
+            Inventory
+        </div>
+        <div id="boxInmat">
+          
+            <button onclick="moveForward1()">Flytt</button> <p id="Verktøy">Verktøy</p>
+            <button onclick="moveForward2()">Flytt</button> <p id="Penn"> Penn</p>
+            <button onclick="moveForward3()">Flytt</button>  <p id="Papir">Papir</p>
+            <button onclick="moveForward4()">Flytt</button>  <p id="Linjal">Linjal</p>
+           
+      
+        </div>
+    </div>
+     
+    
+    <div id="box2" style="margin-left: 10px;"> 
+        <!-- hele boksen -->
+
+        <div id="boxlabel2">
+            Ryggsekk
+        </div>
+        <!-- Boksen over som det står ryggsekk på -->
+        <div id="boxInmat2">
+            <button onclick="moveBack1()">Flytt</button>  <p id="Verktøy2">Verktøy</p>
+            <button onclick="moveBack2()">Flytt</button>     <p id="Penn2">Penn</p>
+            <button onclick="moveBack3()">Flytt</button>     <p id="Papir2">Papir</p>
+            <button onclick="moveBack4()">Flytt</button>    <p id="Linjal2">Linjal</p>
+            <button onclick="moveBack5()">Flytt</button>  <p id="Visklær2">Viskelær</p>
+        </div>
+        <!-- Alle knappene som er på høyre boks -->
+    
+    </div>
+</div>
+<script src="script.js">
+    
+    
+</script>
+</body>
+</html>
+
+
