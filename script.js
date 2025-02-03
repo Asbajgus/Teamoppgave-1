@@ -1,15 +1,3 @@
-
-
-// function fjern1() {
-//     document.getElementById("boxInmat2").style.fontSize = "0px"
-//     document.getElementById("boxInmat3").style.fontSize = "20px"
-// }
-// function fjern2() {
-//     document.getElementById("boxInmat2").style.fontSize = "20px"
-//     document.getElementById("boxInmat3").style.fontSize = "0px"
-// }
-
-
 function moveForward1() {
     document.getElementById("Verktøy").style.fontSize = "0px"
     document.getElementById("Verktøy2").style.fontSize = "20px" 
@@ -70,6 +58,6 @@ function toggle() {
     } else {
         document.getElementById("box1").style.display = "block";
     }
+
 }
 
-console.debug
